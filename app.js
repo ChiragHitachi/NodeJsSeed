@@ -5,9 +5,9 @@ const bodyParser = require('body-parser');
 
 debug('bootstrapping application');
 
-const config = require('./config');
-const logger = require('./config/logger');
-const routes = require('./routes');
+const config = require('./src/config');
+const logger = require('./src/config/logger');
+const routes = require('./src/routes');
 
 const app = express();
 
